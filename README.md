@@ -35,6 +35,7 @@ RUN
 ===
 
 Type the following command at prompt for help
+
     $ python pyanalyzer.py -h
     
     usage: python pyanalyzer.py [options | --help]
@@ -74,9 +75,11 @@ Type the following command at prompt for help
     
 PyAnalyzer is shipped with a default configuration file (config.ini) 
 that has been generated with the following command line.
+
     $ python pyanalyzer.py --generate-config --dir=. --rules=* --metrics=* -m -Mcsv -r -Rcsv > config.ini
 
 You can then analyse all the pyanalyzer itself by issuing
+
     $ python pyanalyzer.py --config=config.ini
 
 PyAnalyzer has been tested on Windows platform. It should run as is on Linux/Unix platforms.
@@ -100,11 +103,12 @@ More Information
 ----------------
 QUALOSS:
     http://www.qualoss.eu
+    
 CETIC:
     http://www.cetic.be
 
 Main Author:
 ------------
 Junior (Frederic) FLEURIAL MONFILS 
-    github: jffm
-    twitter: @fredericmonfils
+* github: jffm
+* twitter: @fredericmonfils
