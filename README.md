@@ -102,7 +102,7 @@ PyAnalyzer has been started at CETIC during EU Funded FP6 QualOSS Project.
 More Information
 ----------------
 QUALOSS:
-    http://www.qualoss.eu
+    https://www.cetic.be/QualOSS,500
     
 CETIC:
     http://www.cetic.be
