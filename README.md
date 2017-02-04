@@ -7,7 +7,7 @@ PYANALYZER v0.1
 
 PyAnalyzer is a highly extensible python analyzer written entirely in python.
 It relies on the standard python 'compiler' package.
-It follows the idea of TheMetrics for Python (http://pythonmetric.sourceforge.net) 
+It follows the idea of [TheMetrics for Python](http://pythonmetric.sourceforge.net) 
 but does not share any line of code. Unlike TheMetrics for Python, it supports
 code written in Python > 2.2
 
@@ -18,18 +18,21 @@ by using the compiler.visitor paradigm.
 DOWNLOAD
 ========
 
-PyAnalyzer can be downloaded here: 
-    https://github.com/jffm/pyanalyzer
+PyAnalyzer can be downloaded on its [github repository](https://github.com/jffm/pyanalyzer)
     
 INSTALL
 =======
 
-Simply extract the archive.
+Simply extract the archive. There are no required dependencies, although psyco can be installed for Python < 2.4
+
 Soon a python egg will be provided. As well as a publication on PyPI
 
 REQUIREMENTS
 ------------
-Python 2.4
+
+Python 2.4+
+
+This is the original version v0.1 created in 2009, it has not (yet) been tested on Python 3+.
 
 RUN
 ===
@@ -87,25 +90,15 @@ PyAnalyzer has been tested on Windows platform. It should run as is on Linux/Uni
 PROJECT
 =======
 
-Information and resources about the project can be found here:
-    https://github.com/jffm/pyanalyzer/wiki
+Information and resources about the project can be found in the [Wiki](https://github.com/jffm/pyanalyzer/wiki)
     
 SUPPORT
 -------
-Support for PyAnalyzer is provided via the 'Issues' of the project
-    https://github.com/jffm/pyanalyzer/issues
+Support for PyAnalyzer is provided via the [Issues](https://github.com/jffm/pyanalyzer/issues) of the project
 
 CREDITS
 -------
-PyAnalyzer has been started at CETIC during EU Funded FP6 QualOSS Project.
-
-More Information
-----------------
-QUALOSS:
-    https://www.cetic.be/QualOSS,500
-    
-CETIC:
-    http://www.cetic.be
+PyAnalyzer has been started at [CETIC](http://cetic.be) during EU Funded FP6 QualOSS Project under Grant Agreement number 033547 [QualOSS](http://cordis.europa.eu/project/rcn/79759_en.html).
 
 Main Author:
 ------------
