@@ -1,6 +1,4 @@
-# pyanalyzer
-
-The Expandable Python Analyzer.
+# PYANALYZER
 
 PyAnalyzer is a highly extensible python analyzer written entirely in python.
 It relies on the standard python 'compiler' package.
